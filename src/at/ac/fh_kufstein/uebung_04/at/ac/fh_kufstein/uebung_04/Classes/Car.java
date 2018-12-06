@@ -11,4 +11,12 @@ public class Car
     {
         System.out.println(speed);
     }
+
+    //Konstruktor erstellt der direkt die Variablen aufnimmt
+    public Car (String color, int wheels, double speed)
+    {
+        this.color = color;
+        this.wheels = wheels;
+        this.speed = speed;
+    }
 }
